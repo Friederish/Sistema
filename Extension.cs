@@ -21,6 +21,22 @@ namespace Sistema
 
             int sesionesAsistidas = Sistema.Universidad.Estudiante.Asistencia.SA
                  (estudiante.SesionesTotales, estudiante.SesionesAsistidas);
+           
+            Console.WriteLine();
+            Console.WriteLine("*==================================================================*");
+            Console.WriteLine($"|    Nombre: {estudiante.Nombre}                                                  ");
+            Console.WriteLine("*==================================================================*");
+            Console.WriteLine($"| Porcentaje de Asistencia: {porcentajeAsistencia:F2}%                                 ");
+            Console.WriteLine($"| Sesiones Asistidas:     {sesionesAsistidas}                            ");
+            Console.WriteLine($"| Total de Asistencia: {asistenciamax}                             ");
+            Console.WriteLine($"| Cumple con el mínimo de asistencia: {(cumpleMinimo ? "Sí" : "No")}                            ");
+            Console.WriteLine("*==================================================================*");
         }
+    }
+}
+
+        
+        }
+
     }
 }
