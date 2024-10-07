@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Sistema
 {
-    internal class Universidaad
+    public class Universidad
     {
+       
     }
 }
