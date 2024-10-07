@@ -14,7 +14,7 @@ namespace Sistema
             public int SesionesTotales { get; set; }        //Propiedades
             public int SesionesAsistidas { get; set; }
 
-            internal class Asistencia //Clase interna "Asistencia" de la clase "Estudiante"
+            internal class Asistencia 
             {
                 public static double CalcularPorcentaje(int sesionesTotales, int sesionesAsistidas)
                 {
